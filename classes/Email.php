@@ -24,10 +24,10 @@ class Email {
         $mail->Host = 'imap.hostinger.com';
         $mail->SMTPAuth = true;
         $mail->Port = 465;
-        $mail->Username = 'admin@andrullosoft.es';
-        $mail->Password = 'Admin_debjobs1';
+        $mail->Username = '********@*******.es';
+        $mail->Password = '**********';
 
-        $mail->setFrom('admin@andrullosoft.es');
+        $mail->setFrom('********@*******.es');
         $mail->addAddress($this->email);
         $mail->Subject = 'Confirma tu Cuenta';
 
@@ -55,10 +55,10 @@ class Email {
         $mail->Host = 'imap.hostinger.com';
         $mail->SMTPAuth = true;
         $mail->Port = 465;
-        $mail->Username = 'admin@andrullosoft.es';
-        $mail->Password = 'Admin_debjobs1';
+        $mail->Username = '********@*******.es';
+        $mail->Password = '**********';
 
-        $mail->setFrom('admin@andrullosoft.es');
+        $mail->setFrom('********@*******.es');
         $mail->addAddress($this->email);
         $mail->Subject = 'Reestablece tu Password';
 
