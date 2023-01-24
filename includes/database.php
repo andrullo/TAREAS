@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect('localhost', 'u971367685_uptask', 'UpTask23', 'u971367685_uptask');
+$db = mysqli_connect('localhost', '*********', '*********', '***********');
 
 
 if (!$db) {
